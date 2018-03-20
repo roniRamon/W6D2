@@ -1,0 +1,57 @@
+/* PHASE 9: Forms */
+.content-main {
+  /* display: flex;
+  justify-content: space-between; */
+  position:relative;
+}
+
+.content-main aside {
+  flex: 1;
+  padding-right: 10px;
+    display: inline-block;
+}
+.make-post {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: inherit;
+  position: absolute;
+  max-width: 80%;
+  float: left;
+  display: inline-block;
+}
+
+.make-post textarea, .make-post input {
+  display: block;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(100% - 52px);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.make-post textarea, .make-post input, .make-post button {
+  margin : 0 auto;
+}
+
+.make-post label {
+  margin-left: 15px;
+}
+
+.make-post button {
+position: relative;
+padding: 10px 20px;
+color: #fff;
+background: #0c0;
+font-weight: 700;
+border-radius: 5px;
+box-shadow: 0 3px 0 0 #070;
+margin: 20px;
+}
+
+.input > label {
+    display: block;
+    font-weight: 700;
+    padding: 0 0 5px 0;
+  }
