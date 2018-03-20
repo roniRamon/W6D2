@@ -1,0 +1,33 @@
+.square {
+  outline: 1px solid gray;
+  width: 75px;
+  height: 75px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: crosshair;
+  list-style: none;
+  background-color: blue;
+  text-align: center;
+  font-size: 60px;
+}
+ul.group {
+  margin: 0;
+  width: 500px;
+  padding: 0;
+  display: flex;
+  margin: 0 auto;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ttt{
+  display: block;
+  margin: 0 auto;
+  padding-left: 260px;
+}
