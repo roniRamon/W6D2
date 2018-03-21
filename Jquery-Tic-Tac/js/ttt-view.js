@@ -19,6 +19,7 @@ class View {
       if(this.game.winner()){
         let winner = this.game.winner();
         const b = $('p').text(`The Winner is ${winner}`);
+        
       }
     });
   }

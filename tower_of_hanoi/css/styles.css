@@ -1,0 +1,19 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 0 auto;
+}
+
+ul {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: lightblue;
+  border-bottom: solid black 3px;
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+  font-size: 25px;
+}
